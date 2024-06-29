@@ -1,0 +1,21 @@
+.add {
+  position: absolute; /* Establece posición absoluta */
+  bottom: 20px; /* Coloca el elemento 20px desde la parte inferior del contenedor */
+  left: 90%; /* Coloca el elemento en el centro horizontalmente */
+  transform: translateX(-50%); /* Centra horizontalmente el elemento */
+  background-color:darkblue; /* Color de fondo rojo para visualización */
+  padding: 10px 20px; /* Espaciado interno */
+  border-radius: 50%; /* Borde redondeado */
+  color: white; /* Color del texto */
+}
+
+.add mat-icon {
+  font-size: 32px; /* Tamaño del icono */
+}
+ mat-icon:hover {
+  transform: scale(1.05)
+}
+p{
+  text-align: center;
+  font-size: large !important;
+}

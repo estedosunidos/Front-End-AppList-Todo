@@ -1,0 +1,26 @@
+/* Container styles */
+.container {
+  position: relative; /* Position relative to allow positioning of child elements */
+  display: flex; /* Use Flexbox for layout */
+  flex-direction: row; /* Align items in a row */
+  align-items: flex-start; /* Align items at the start vertically */
+  height: calc(90vh - 100px); /* Full viewport height minus 110px */
+  width: 100%; /* Full width of the viewport */
+  margin: 20px 20px 20px ;
+  gap: 20px; /* Space between sidevar and main pages */
+
+}
+
+/* app-sidevar styles */
+app-sidevar {
+  flex: 1; /* Adjusts size relative to other flex items */
+  background-color: white; /* Background color for visual distinction */
+  height: 100%; /* Ensure it takes full height of the container */
+}
+
+/* app-main-pages styles */
+app-main-pages {
+  flex: 3; /* Adjusts size relative to other flex items */
+  background-color: antiquewhite; /* Background color */
+  height: 100%; /* Ensure it takes full height of the container */
+}

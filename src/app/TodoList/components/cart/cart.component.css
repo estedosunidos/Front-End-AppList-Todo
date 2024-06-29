@@ -1,0 +1,39 @@
+mat-card {
+  background-color: aliceblue; /* Background color */
+  width: 54%; /* Width of the card */
+  height: auto; /* Automatic height based on content */
+  max-height: 100px; /* Maximum height to ensure the card is not too large */
+  margin: 10px auto; /* Center the card horizontally and add top margin */
+  padding: 10px 20px; /* Padding inside the card */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for a card-like appearance */
+  display: flex; /* Flexbox layout for content alignment */
+  flex-direction: column; /* Align items vertically */
+  justify-content: center; /* Center content vertically if needed */
+
+  transition: transform 0.2s; /* Smooth transformation effect */
+}
+
+mat-card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+mat-card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+button {
+  width: 50px; /* Set the desired width */
+  height: 50px; /* Set the height equal to the width to make it a circle */
+  border-radius: 50%; /* Make the button a circle */
+  background-color: red; /* Set the background color */
+  border: none; /* Remove the default border */
+  display: flex; /* Use Flexbox for internal content alignment */
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  color: white; /* Text color */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  margin: 0.6rem;
+  margin-bottom: 4rem;
+}
